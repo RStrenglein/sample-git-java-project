@@ -2,7 +2,8 @@ package org.strenglein.model;
 
 public class User {
 
-	String name;
+	private String name;
+	private int age;
 	
 	public User(String name) {
 		this.name = name;
